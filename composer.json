@@ -3,11 +3,12 @@
     "description": "SeAT 5 plugin for detecting potential spies through ESI analysis",
     "type": "seat-plugin",
     "license": "MIT",
+	"minimum-stability": "stable",
+	"prefer-stable": true,
     "require": {
         "php": ">=8.1",
         "eveseat/seat": "^5.0"
     },
-	"minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "1234nin4321\\Seat\\EspionageDetector\\": "src/"

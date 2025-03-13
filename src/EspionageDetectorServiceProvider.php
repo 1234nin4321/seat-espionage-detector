@@ -1,6 +1,6 @@
 <?php
 
-namespace 1234nin4321\Seat\EspionageDetector;
+namespace nin\Seat\EspionageDetector;
 
 use Illuminate\Support\ServiceProvider;
 

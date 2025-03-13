@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/seat-espionage-detector",
+    "name": "1234nin4321/seat-espionage-detector",
     "description": "SeAT 5 plugin for detecting potential spies through ESI analysis",
     "type": "seat-plugin",
     "license": "MIT",
@@ -7,15 +7,16 @@
         "php": ">=8.1",
         "eveseat/seat": "^5.0"
     },
+	"minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "YourVendor\\Seat\\EspionageDetector\\": "src/"
+            "1234nin4321\\Seat\\EspionageDetector\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YourVendor\\Seat\\EspionageDetector\\EspionageDetectorServiceProvider"
+                "1234nin4321\\Seat\\EspionageDetector\\EspionageDetectorServiceProvider"
             ]
         }
     }

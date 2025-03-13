@@ -8,7 +8,6 @@ return [
             'esi-contracts.read_character_contracts.v1',
             'esi-characters.read_contacts.v1'
         ],
-        'optional' => []
     ],
     
     'thresholds' => [
@@ -16,5 +15,11 @@ return [
         'critical' => 3
     ],
     
-    'data_retention' => 30, // days
+    'data_retention' => 30,
+    
+    'entity_models' => [
+        'character' => \Seat\Eveapi\Models\Character\CharacterInfo::class,
+        'corporation' => \Seat\Eveapi\Models\Corporation\CorporationInfo::class,
+        'alliance' => \Seat\Eveapi\Models\Alliance\Alliance::class,
+    ],
 ];

@@ -1,13 +1,13 @@
 <?php
 
-namespace YourVendor\Seat\EspionageDetector\Http\Controllers;
+namespace 1234nin4321\Seat\EspionageDetector\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Seat\Web\Http\Controllers\Controller;
-use YourVendor\Seat\EspionageDetector\Models\ScreeningResult;
-use YourVendor\Seat\EspionageDetector\Models\SuspiciousEntity;
-use YourVendor\Seat\EspionageDetector\Jobs\ProcessScreening;
+use 1234nin4321\Seat\EspionageDetector\Models\ScreeningResult;
+use 1234nin4321\Seat\EspionageDetector\Models\SuspiciousEntity;
+use 1234nin4321\Seat\EspionageDetector\Jobs\ProcessScreening;
 use Seat\Eveapi\Models\Character\CharacterInfo;
 
 class ScreeningController extends Controller

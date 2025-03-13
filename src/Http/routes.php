@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use YourVendor\Seat\EspionageDetector\Http\Controllers\ScreeningController;
+use 1234nin4321\Seat\EspionageDetector\Http\Controllers\ScreeningController;
 
 Route::group([
     'prefix' => 'espionage-detector',

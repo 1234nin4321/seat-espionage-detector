@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\Seat\EspionageDetector\Models;
+namespace 1234nin4321\Seat\EspionageDetector\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

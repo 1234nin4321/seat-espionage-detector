@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\Seat\EspionageDetector\Jobs;
+namespace 1234nin4321\Seat\EspionageDetector\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -15,7 +15,7 @@ use Seat\Eveapi\Models\{
     Contacts\CharacterContact,
     Wallet\CharacterWalletJournal
 };
-use YourVendor\Seat\EspionageDetector\Models\{
+use 1234nin4321\Seat\EspionageDetector\Models\{
     ScreeningResult,
     SuspiciousEntity
 };
